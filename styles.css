@@ -1,0 +1,87 @@
+/* Import modern Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #4bbb63, #2daf59);
+    color: white;
+}
+
+/* Page Title */
+h1 {
+    font-size: 3rem;
+    margin-top: 30px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+/* Section Headers */
+h2 {
+    margin-top: 40px;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Image Container */
+.image-container {
+    margin: 30px auto;
+    width: fit-content;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: scale(1.03);
+}
+
+/* Team Photo */
+.team-photo {
+    width: 650px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.5);
+}
+
+/* Team Member List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Member Cards */
+li {
+    background: rgba(255,255,255,0.1);
+    margin: 10px auto;
+    width: 300px;
+    padding: 15px;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    transition: 0.3s;
+}
+
+/* Hover effect */
+li:hover {
+    background: rgba(255,255,255,0.2);
+    transform: translateY(-3px);
+}
+
+/* Member Links */
+a {
+    text-decoration: none;
+    color: #ffd369;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: 30px auto;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+}
